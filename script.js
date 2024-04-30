@@ -33,11 +33,11 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
-const foods = ["pizza", "cheeseburger"]
+// const foods = ["pizza", "cheeseburger"]
 
-foods.unshift('taco')
+// foods.unshift('taco')
 
-console.log(foods)
+// console.log(foods)
 
 
 // console.log('Exercise 3 result:', foods);
@@ -54,6 +54,13 @@ console.log(foods)
 // Complete Exercise 4 in the space below:
 // */
 
+const foods = ["pizza", "cheeseburger"]
+
+foods.unshift('taco')
+
+favFood = foods[1]
+
+console.log(favFood)
 
 
 // console.log('Exercise 4 result:', favFood);
