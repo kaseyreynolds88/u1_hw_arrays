@@ -54,13 +54,13 @@ Complete Exercise 3 in the space below:
 // Complete Exercise 4 in the space below:
 // */
 
-const foods = ["pizza", "cheeseburger"]
+// const foods = ["pizza", "cheeseburger"]
 
-foods.unshift('taco')
+// foods.unshift('taco')
 
-favFood = foods[1]
+// favFood = foods[1]
 
-console.log(favFood)
+// console.log(favFood)
 
 
 // console.log('Exercise 4 result:', favFood);
@@ -75,7 +75,15 @@ console.log(favFood)
 // Complete Exercise 5 in the space below:
 // */
 
+const foods = ["pizza", "cheeseburger"]
 
+foods.unshift('taco')
+
+favFood = foods[1]
+
+foods.splice(2,0,'tofu')
+
+console.log(foods)
 
 // console.log('Exercise 5 result:', foods);
 
