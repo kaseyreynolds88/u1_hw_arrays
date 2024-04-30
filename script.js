@@ -96,19 +96,19 @@ Complete Exercise 3 in the space below:
 // Complete Exercise 6 in the space below:
 // */
 
-const foods = ["pizza", "cheeseburger"]
+// const foods = ["pizza", "cheeseburger"]
 
-foods.unshift('taco')
+// foods.unshift('taco')
 
-favFood = foods[1]
+// favFood = foods[1]
 
-foods.splice(2,0,'tofu')
+// foods.splice(2,0,'tofu')
 
-foods[1] = ('sushi')
+// foods[1] = ('sushi')
 
-foods.splice(2,0,'cupcake')
+// foods.splice(2,0,'cupcake')
 
-console.log(foods)
+// console.log(foods)
 
 
 // console.log('Exercise 6 result:', foods)
@@ -126,11 +126,25 @@ console.log(foods)
 // Complete Exercise 7 in the space below:
 // */
 
+const foods = ["pizza", "cheeseburger"]
+
+foods.unshift('taco')
+
+favFood = foods[1]
+
+foods.splice(2,0,'tofu')
+
+foods[1] = ('sushi')
+
+foods.splice(2,0,'cupcake')
+
+const yummy = foods.slice(1, 3)
+
+console.log(yummy)
 
 // console.log('Exercise 7 result:', yummy);
-
-
 // /*
+
 // Exercise 8: Finding an index
 
 // 1) Using the `indexOf()` method, find the index of the string 'tofu' in the 
