@@ -21,8 +21,8 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-const foods = ["pizza", "cheeseburger"]
-console.log(foods);
+// const foods = ["pizza", "cheeseburger"]
+// console.log(foods);
 
 
 /*
@@ -33,6 +33,11 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
+const foods = ["pizza", "cheeseburger"]
+
+foods.unshift('taco')
+
+console.log(foods)
 
 
 // console.log('Exercise 3 result:', foods);
