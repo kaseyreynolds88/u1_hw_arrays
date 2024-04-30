@@ -155,23 +155,23 @@ Complete Exercise 3 in the space below:
 // Complete Exercise 8 in the space below:
 // */
 
-const foods = ["pizza", "cheeseburger"]
+// const foods = ["pizza", "cheeseburger"]
 
-foods.unshift('taco')
+// foods.unshift('taco')
 
-favFood = foods[1]
+// favFood = foods[1]
 
-foods.splice(2,0,'tofu')
+// foods.splice(2,0,'tofu')
 
-foods[1] = ('sushi')
+// foods[1] = ('sushi')
 
-foods.splice(2,0,'cupcake')
+// foods.splice(2,0,'cupcake')
 
-const yummy = foods.slice(1, 3)
+// const yummy = foods.slice(1, 3)
 
-const soyIdx = foods.indexOf('tofu')
+// const soyIdx = foods.indexOf('tofu')
 
-console.log(soyIdx)
+// console.log(soyIdx)
 
 // console.log('Exercise 8 result:', soyIdx);
 
@@ -190,6 +190,25 @@ console.log(soyIdx)
 // Complete Exercise 9 in the space below:
 // */
 
+const foods = ["pizza", "cheeseburger"]
+
+foods.unshift('taco')
+
+favFood = foods[1]
+
+foods.splice(2,0,'tofu')
+
+foods[1] = ('sushi')
+
+foods.splice(2,0,'cupcake')
+
+const yummy = foods.slice(1, 3)
+
+const soyIdx = foods.indexOf('tofu')
+
+const allFoods = foods.join(" -> ")
+
+console.log(allFoods)
 
 
 // console.log('Exercise 9 result:', allFoods);
